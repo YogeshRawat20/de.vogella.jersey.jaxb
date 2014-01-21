@@ -14,7 +14,7 @@ public class TodoResource {
 	  public Todo getXML() {
 	    Todo todo = new Todo();
 	    todo.setSummary("This is my first todo");
-	    todo.setDescription("This is my first todo and first git and I dont KNow");
+	    todo.setDescription("This is my first todo and first git");
 	    return todo;
 	  }
 	  
