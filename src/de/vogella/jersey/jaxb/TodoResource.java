@@ -13,7 +13,7 @@ public class TodoResource {
 	  @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
 	  public Todo getXML() {
 	    Todo todo = new Todo();
-	    todo.setSummary("This is my first todo");
+	    todo.setSummary("This is my first todo and I am sorry");
 	    todo.setDescription("This is my first todo");
 	    return todo;
 	  }
